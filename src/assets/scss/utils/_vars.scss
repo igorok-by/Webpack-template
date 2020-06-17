@@ -1,0 +1,47 @@
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1290px);
+
+// Main color
+$primary: #1982c4;
+$secondary: #334e58;
+$success: #8ac926;
+$info: rgba(174, 181, 185, 0.5);
+$warning: #ff9800;
+$danger: #e51c23;
+$light: #ffffff;
+$dark: #33261d;
+$black: #000000;
+
+// Secondary color
+$primary-dark: #1b75bf;
+$primary-light: #6cb7f4;
+$warning-dark: #cc7a00;
+$warning-light: #ffb84d;
+$info-dark: rgba(76, 82, 85, 0.4);
+$info-light: rgba(174, 181, 185, 1);
+$success-dark: #367d38;
+$success-light: #6dfc71;
+
+// Font
+$mainFont: "Raleway", Helvetica, Arial, sans-serif;
+$secondFont: "Merriweather", Georgia, serif;
+$mainFontColor: $light;
+$mainFontSize: 10px;
+$mainFontWeight: normal;
+$mainLineHeight: 1;
+
+// Transition
+$def-transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+$long-transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);

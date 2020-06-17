@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+
+  font-size: $mainFontSize;
+  line-height: $mainLineHeight;
+  color: $mainFontColor;
+
+  @include media-breakpoint-down(md) {
+    font-size: 8px;
+  }
+  @include media-breakpoint-down(xs) {
+    font-size: 6px;
+  }
+}
+
+body {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+  font-weight: $mainFontWeight;
+  line-height: $mainLineHeight;
+  font-family: $mainFont;
+  color: $mainFontColor;
+
+  background-color: $dark;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
